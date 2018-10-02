@@ -1,0 +1,49 @@
+main()
+{
+	y:=a+q*c+d*e;
+	a:=~(~(~(~(~(~(~(~(~(~(~a))))))))));
+
+	if x<y? 
+		x,y:=a+q*c+(a+q*c+d)/e,(m&n)+q*c*(m&n);
+		asdf:=151*y;
+	:: 2*x>3*y+5?
+		if a<q ?
+			x:=a+q*c+(a+q*c+d)/e*y;
+			a:=q*c+x*y;
+		fi
+	:: x>y?
+		y:=y+1;
+		do y<q?
+			if a<q?
+				a:=a+1;
+				q:=q-1;
+			fi
+		od
+	fi;
+
+
+
+	myfunction(x)
+	{
+		x,y:=x*123,0;
+		do x<123456?
+			y:=y+1;
+			x:=y*y;
+		od;
+		return y
+	};
+
+
+	q:=myfunction:=a;
+
+
+	if -((((((((-a-a*a-a*a*a-a*a*a*a))))))))*(a *(-a + a)+(-a+a)/a+a/a)<q ?
+		a:=simple:=;
+	:: a=q?
+		:=simple:=(a+q)*c,a+q*c;
+	:: a>q?
+		a,q:=simple:=a+q*c+d*e,q+c,23;
+	fi;
+	
+	return 
+}

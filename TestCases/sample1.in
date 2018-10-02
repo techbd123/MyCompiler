@@ -1,0 +1,20 @@
+Add(x,y)
+{
+	c:=x+y;
+	return c
+};
+
+main()
+{
+	x,y:=1,5;
+	if x < y ?
+		do x<y?
+			x:=x+1;
+		od;
+	:: x > y ? x := y+1
+	fi;
+	x:=Add:=x,y;
+	:=print:=x,newline;
+	:=print:=y,newline;
+	return 
+};

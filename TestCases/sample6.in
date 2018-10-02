@@ -1,0 +1,21 @@
+main()
+{
+	if x<y? 
+		x,y:=a+p*q+(a+p*q+d)/e,(m&n)+p*q*(m&n);
+		asdf:=151*y;
+	:: 2*x>3*y+5?
+		if p<q ?
+			x:=a+p*q+(a+p*q+d)/e*y;
+			a:=p*q+x*y;
+		fi
+	:: x>y?
+		y:=y+1;
+		do y<q?
+			if a<q?
+				a:=a+1;
+				q:=q-1;
+			fi
+		od
+	fi;
+	return 
+}

@@ -1,0 +1,9 @@
+main()
+{
+	do x < y ? 
+		x := x+7
+	od;
+	return 
+};
+
+

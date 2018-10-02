@@ -1,0 +1,58 @@
+main()
+{
+	a:=simple:=a+q*c+d*e,q+c,23;
+	value:=simple:=a;
+
+	do ~(value|a) ?
+		value:=a|a&a|a&a&a|a&a&a&a|a&a&a&a&a|a&a&a&a&a&a|a&a&a&a&a&a|a&a&a&a&a&a&a|a&a&a&a&a&a&a&a|a&a&a&a&a&a&a&a&a|a&a&a&a&a&a&a&a&a&a;
+	od;
+
+	a:=~(~(~(~(~(~(~(~(~(~(~a))))))))));
+
+
+	do a<q?
+		a:=a+q*c;
+	od;
+
+	c:=a+q;
+
+	old, sgn, step, lim := 0, 1, 1, 1000;
+	do step < lim ?
+		new := old+sgn/step;
+		step := step+2;
+		sgn := -sgn;
+		pi := 2*(old+new);
+		old := new;
+	od;
+
+	if x < y ? x := y-1
+	:: x = y ? 
+	:: x > y ? x := y+1
+	fi;
+
+	t := tol+0.0;
+
+	i := 2.0; 
+
+	ao, a := 2, 3;
+
+	bo, q := 1, 1; 
+
+	diff := ao/bo - a/q;
+
+	do diff*diff < t*t ?
+
+		ao, a := a, ao+a*i;
+		bo, q := q, bo+q*i;
+		ao, a := a, ao+a;
+		qo, q := q, bo+q;
+		ao, a := a, ao+a;
+		bo, q := q, bo+q;
+		i := i+2;
+		diff := ao/bo - a/q;
+	od;
+
+	e := a/q;
+	
+	return 
+}

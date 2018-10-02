@@ -1,0 +1,20 @@
+main()
+{
+	x:=Input_Integer:=;
+	y:=Input_Integer:=;
+	z:=Input_Integer:=;
+	
+	value:=myfunc:=x,y,z;
+	
+	:=print:=value,newline;
+	
+	return 
+};
+
+myfunc(x,y,z)
+{	
+	if x>=0 ?
+		m:=x*y*z;	
+	fi;
+	return m
+};

@@ -1,0 +1,13 @@
+main()
+{
+	if x<y? 
+		x,y:=Brain:=a+q*c+(a+q*c+d)/e,(m&n)+q*c*(m&n),a+q+c+d+e+f;
+	:: 2*x>3*y+5?
+		a:=~(~(~(~(~(~(~(~(~(~(~a))))))))));
+	:: a+2<3?
+		do a<q?
+			a:=a+c;
+		od
+	fi;
+	return 
+}

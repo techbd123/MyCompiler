@@ -1,0 +1,39 @@
+main()
+{
+	n:=Input_Integer:=;
+	value:=fibonacci:=n;
+	:=print:=value,newline;
+	
+	value:=Hanoi:=n;
+	:=print:=value,newline;
+	
+	return 
+};
+
+
+
+fibonacci(n)
+{
+	if n=0 ?
+		term:=0;
+	:: n=1 ?
+		term:=1;
+	:: n>1 ?
+		term1:=fibonacci:=n-1;
+		term2:=fibonacci:=n-2;
+		term:=term1+term2;
+	fi;
+	return term	
+};
+
+
+Hanoi(n)
+{
+	if n=0 ?
+		term:=0;
+	:: n>0 ?
+		term1:=Hanoi:=n-1;
+		term:=2*term1+1;
+	fi;
+	return term 
+};
