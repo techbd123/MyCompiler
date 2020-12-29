@@ -29,6 +29,6 @@ then it will produce the output file (named `filename.out.s`) containing MIPS as
 
 *	Pointers or Arrays are NOT implemented
 
-*	`:=print:=arg1,arg2,arg3,...` will show output as stdout. Besides the keyword `newline` given as argument to will yield a newline in stdout.
+*	`:=print:=arg1,arg2,arg3,...` will show output as stdout. Besides the keyword `newline` given as an argument will yield a newline in stdout.
 
 *	`arg:=Input_Integer:=` will take integer from stdin.
